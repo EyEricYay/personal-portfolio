@@ -1,0 +1,76 @@
+/* sets full background to a pastel purple */
+html{
+    background-color: rgb(214, 207, 255);
+}
+
+body {
+    padding: 3%;
+}
+
+/* sets up borders and gives them a pastel blue color */
+header, section {
+    background-color: rgb(221, 240, 255);
+    border-radius: 10px;
+    padding: 3%;
+    margin: 1%;
+}
+
+/* gives the interest section a border and style */
+#interestSection{
+    border-style: groove;
+    border-width: 7px;
+    border-radius: 0px;
+    border-color: rgb(170, 194, 212);
+    display: flow-root;
+}
+
+/* makes about me border wrap around floated image */
+#aboutMeSection{
+    display: flow-root;
+}
+
+/* makes name section padding smaller and centers it */
+#nameSection{
+    padding: 1%;
+    text-align: center;
+}
+
+/* sets up header font and colors */
+h1, h2 {
+    color: rgb(76, 43, 112);
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+/* sets up paragraph font */
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* adjusts link spacing, size and font */
+a {
+    font-size: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* gives about me paragraph limited size */
+#aboutParagraph{
+    width: 75%;
+}
+
+/* gives all images a limited size */
+img {
+    width: 25%;
+    border-radius: 10px;
+    padding: 1%;
+}
+
+/* floats image to the right */
+#interestsImg{
+    float: right;
+}
+
+/* floats assets to the right */
+.rightFloat{
+    float: right;
+}
