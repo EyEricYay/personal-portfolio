@@ -17,9 +17,9 @@ header, section {
 
 /* gives the interest section a border and style */
 #interestSection{
-    border-style: groove;
-    border-width: 7px;
-    border-radius: 0px;
+    border-style: dotted;
+    border-width: 5px;
+    border-radius: 5px;
     border-color: rgb(170, 194, 212);
     display: flow-root;
 }
@@ -33,6 +33,13 @@ header, section {
 #nameSection{
     padding: 1%;
     text-align: center;
+}
+
+#funSection{
+    border-radius: 5px;
+    border-width: 4px;
+    border-style: dashed;
+    border-color: rgb(170, 194, 212);
 }
 
 /* sets up header font and colors */
@@ -61,13 +68,16 @@ a {
 /* gives all images a limited size */
 img {
     width: 25%;
-    border-radius: 10px;
     padding: 1%;
 }
 
 /* floats image to the right */
 #interestsImg{
     float: right;
+    border-style: groove;
+    border-color: rgb(95, 69, 52);
+    border-width: 7px;
+    padding: 0%;
 }
 
 /* floats assets to the right */
