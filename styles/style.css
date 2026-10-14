@@ -10,18 +10,37 @@ body {
 /* sets up borders and gives them a pastel blue color */
 header, section {
     background-color: rgb(221, 240, 255);
-    border-radius: 10px;
+    border-radius: 5px;
+    border-width: 5px;
+    border-style: dotted;
+    border-color: rgb(170, 194, 212);
     padding: 3%;
     margin: 1%;
+    width: 60%;
+    margin-left: 15%;
+}
+
+/* nav styling and display */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
 }
 
 /* gives the interest section a border and style */
 #interestSection{
-    border-style: dotted;
     border-width: 5px;
     border-radius: 5px;
     border-color: rgb(170, 194, 212);
     display: flow-root;
+    align-items: left;
+    gap: 1%;
 }
 
 /* makes about me border wrap around floated image */
@@ -33,13 +52,7 @@ header, section {
 #nameSection{
     padding: 1%;
     text-align: center;
-}
-
-#funSection{
-    border-radius: 5px;
-    border-width: 4px;
-    border-style: dashed;
-    border-color: rgb(170, 194, 212);
+    margin-left: 17%;
 }
 
 /* sets up header font and colors */
@@ -63,21 +76,37 @@ a {
 /* gives about me paragraph limited size */
 #aboutParagraph{
     width: 75%;
+    margin-left: 2.5rem;
 }
 
 /* gives all images a limited size */
 img {
-    width: 25%;
+    width: 20%;
     padding: 1%;
 }
 
 /* floats image to the right */
 #interestsImg{
     float: right;
-    border-style: groove;
+    border-style: ridge;
     border-color: rgb(95, 69, 52);
-    border-width: 7px;
+    border-width: 8px;
     padding: 0%;
+}
+
+/* puts interests into boxes */
+.interestBox {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    width: 30%;
+
+    border-style: solid;
+    border-color: rgb(94, 149, 163);
+
+    background-color: aliceblue;
+    margin: 2rem;
+    padding: 0.5rem;
 }
 
 /* floats assets to the right */
