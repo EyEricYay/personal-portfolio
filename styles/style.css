@@ -1,0 +1,115 @@
+/* sets full background to a pastel purple */
+html{
+    background-color: rgb(214, 207, 255);
+}
+
+body {
+    padding: 3%;
+}
+
+/* sets up borders and gives them a pastel blue color */
+header, section {
+    background-color: rgb(221, 240, 255);
+    border-radius: 5px;
+    border-width: 5px;
+    border-style: dotted;
+    border-color: rgb(170, 194, 212);
+    padding: 3%;
+    margin: 1%;
+    width: 60%;
+    margin-left: 15%;
+}
+
+/* nav styling and display */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+/* gives the interest section a border and style */
+#interestSection{
+    border-width: 5px;
+    border-radius: 5px;
+    border-color: rgb(170, 194, 212);
+    display: flow-root;
+    align-items: left;
+    gap: 1%;
+}
+
+/* makes about me border wrap around floated image */
+#aboutMeSection{
+    display: flow-root;
+}
+
+/* makes name section padding smaller and centers it */
+#nameSection{
+    padding: 1%;
+    text-align: center;
+    margin-left: 17%;
+}
+
+/* sets up header font and colors */
+h1, h2 {
+    color: rgb(76, 43, 112);
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+/* sets up paragraph font */
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* adjusts link spacing, size and font */
+a {
+    font-size: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* gives about me paragraph limited size */
+#aboutParagraph{
+    width: 75%;
+    margin-left: 2.5rem;
+}
+
+/* gives all images a limited size */
+img {
+    width: 20%;
+    padding: 1%;
+}
+
+/* floats image to the right */
+#interestsImg{
+    float: right;
+    border-style: ridge;
+    border-color: rgb(95, 69, 52);
+    border-width: 8px;
+    padding: 0%;
+}
+
+/* puts interests into boxes */
+.interestBox {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    width: 30%;
+
+    border-style: solid;
+    border-color: rgb(94, 149, 163);
+
+    background-color: aliceblue;
+    margin: 2rem;
+    padding: 0.5rem;
+}
+
+/* floats assets to the right */
+.rightFloat{
+    float: right;
+}
